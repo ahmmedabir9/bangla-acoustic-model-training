@@ -1,0 +1,1425 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+<meta http-equiv="REFRESH" content="60">
+<title>bangla</title>
+<style type="text/css">
+body {
+ background: #f0f0f5;
+}
+p,span {
+ font-family: monospace;
+}
+p {
+ margin-right: 6em;
+}
+p.phase {
+ font-weight: bold;
+ margin-bottom: 0;
+}
+p.result, p.WARNING, p.error {
+ margin-top: 0;
+ margin-bottom: 0;
+ margin-left: 5em;
+}
+span.status {
+ float: right;
+ margin-top: -1em;
+}
+.passed, .completed {
+ color: #00D000;
+}
+.WARNING, .warning {
+ color: #555500;
+}
+.FAILED, .error {
+ color: #DD0000;
+}
+</style>
+</head>
+<body>
+<h1 class="experiment">/media/abir/Workplace/Thesis/bangla-words</h1>
+<h2 class="hostname">Training bangla on abir-Inspiron-15-3567</h2>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2020-12-28 22:34)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/000.comp_feat/bangla.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/000.comp_feat/bangla.test-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2020-12-28 22:34)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 97 words using 36 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.042575</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 94</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 0000 train grapheme-to-phoneme model	(2020-12-28 22:34)</h3>
+<p>Skipped (set $CFG_G2P_MODEL = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 01 Train LDA transformation	(2020-12-28 22:34)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 02 Train MLLT transformation	(2020-12-28 22:34)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 05 Vector Quantization	(2020-12-28 22:34)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: 10 Training Context Independent models for forced alignment and VTLN	(2020-12-28 22:34)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 11 Force-aligning transcripts	(2020-12-28 22:34)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 12 Force-aligning data for VTLN	(2020-12-28 22:34)</h3>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 20 Training Context Independent models	(2020-12-28 22:34)</h3>
+<p class='phase'>Phase 1: Cleaning up directories:</p>
+<span class='progress'>	accumulator...</span>
+<span class='progress'>logs...</span>
+<span class='progress'>qmanager...</span>
+<span class='progress'>models...
+</span>
+<span class='status completed'>completed</span>
+<p class='phase'>Phase 2: Flat initialize</p>
+<p class='result'>mk_mdef_gen <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.make_ci_mdef_fromphonelist.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>mk_flat <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.makeflat_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.initmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.normmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.initvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.normvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.cpmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.cpvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='phase'>Phase 3: Forward-Backward</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 1 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.1-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 1</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.1.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -151.261238337574</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 2 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.2-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 2</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.2.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -149.281268349971</p>
+<p class='result'>Convergence Ratio = 1.97996998760337</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 3 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.3-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 3</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.3.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -147.91407320415</p>
+<p class='result'>Convergence Ratio = 1.36719514582146</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 4 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.4-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 4</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.4.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -147.510080250538</p>
+<p class='result'>Convergence Ratio = 0.40399295361172</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 5 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.5-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 5</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.5.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -147.401122202649</p>
+<p class='result'>Convergence Ratio = 0.108958047889104</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 6 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.6-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 6</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.6.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -147.362301820317</p>
+<p class='result'>Training completed after 6 iterations</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 60 Lattice Generation	(2020-12-28 22:34)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 61 Lattice Pruning	(2020-12-28 22:34)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 62 Lattice Format Conversion	(2020-12-28 22:34)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 65 MMIE Training	(2020-12-28 22:34)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 90 deleted interpolation	(2020-12-28 22:34)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: DECODE Decoding using models previously trained	(2020-12-28 22:34)</h3>
+<p class='result'>Decoding 267 segments starting at 0 (part 1 of 1) </p>
+<p class='result'>pocketsphinx_batch <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/decode/bangla-1-1.log">Log File</a></p><p class='error'>ERROR: This step had 4 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p>        Aligning results to find error rate</p>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2020-12-28 22:50)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/000.comp_feat/bangla.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/000.comp_feat/bangla.test-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2020-12-28 22:50)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 97 words using 36 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.042575</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 94</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 2: abir/abir_aat vs tonmoy_aam</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 3: abir/abir_angur vs towsic_aam</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 4: abir/abir_apel vs abir_aat</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 5: abir/abir_asha vs tonmoy_aat</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 6: abir/abir_baba vs towsic_aat</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 7: abir/abir_barishal vs abir_angur</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 8: abir/abir_bati vs tonmoy_angur</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 9: abir/abir_bhai vs towsic_angur</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 10: abir/abir_bishshobiddaloy vs abir_apel</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 11: abir/abir_bivag vs tonmoy_apel</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 12: abir/abir_bochor vs towsic_apel</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 13: abir/abir_boi vs abir_asha</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 14: abir/abir_bon vs tonmoy_asha</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 15: abir/abir_bondhu vs towsic_asha</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 16: abir/abir_brihospotibar vs abir_baba</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 17: abir/abir_budhbar vs tonmoy_baba</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 18: abir/abir_caca vs towsic_baba</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 19: abir/abir_cha vs abir_barishal</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 20: abir/abir_char vs tonmoy_barishal</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 21: abir/abir_chattrogram vs towsic_barishal</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 22: abir/abir_choy vs abir_bati</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 23: abir/abir_coffee vs tonmoy_bati</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 24: abir/abir_collage vs towsic_bati</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 25: abir/abir_computer vs abir_bhai</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 26: abir/abir_cricket vs tonmoy_bhai</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 27: abir/abir_daal vs towsic_bhai</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 28: abir/abir_dekha vs abir_bishshobiddaloy</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 29: abir/abir_dhaka vs tonmoy_bishshobiddaloy</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 30: abir/abir_dhonnobad vs towsic_bishshobiddaloy</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 31: abir/abir_din vs abir_bivag</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 32: abir/abir_dosh vs tonmoy_bivag</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 33: abir/abir_dudh vs towsic_bivag</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 34: abir/abir_dui vs abir_bochor</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 35: abir/abir_eek vs tonmoy_bochor</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 36: abir/abir_football vs towsic_bochor</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 37: abir/abir_fufu vs abir_boi</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 38: abir/abir_ghumano vs tonmoy_boi</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 39: abir/abir_hata vs towsic_boi</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 40: abir/abir_hello vs abir_bon</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 41: abir/abir_holud vs tonmoy_bon</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 42: abir/abir_internet vs towsic_bon</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 43: abir/abir_jawa vs abir_bondhu</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 44: abir/abir_kaaz vs tonmoy_bondhu</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 45: abir/abir_kalo vs towsic_bondhu</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 46: abir/abir_kathal vs abir_brihospotibar</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 47: abir/abir_khala vs tonmoy_brihospotibar</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 48: abir/abir_khulna vs towsic_brihospotibar</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 49: abir/abir_kola vs abir_budhbar</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 50: abir/abir_kolom vs tonmoy_budhbar</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 51: abir/abir_komola vs towsic_budhbar</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 52: abir/abir_laal vs abir_caca</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 53: abir/abir_ma vs tonmoy_caca</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 54: abir/abir_maach vs towsic_caca</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 55: abir/abir_mangsho vs abir_cha</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 56: abir/abir_mash vs tonmoy_cha</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 57: abir/abir_maymansingh vs towsic_cha</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 58: abir/abir_mishti vs abir_char</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 59: abir/abir_mobile vs tonmoy_char</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 60: abir/abir_mongolbar vs towsic_char</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 61: abir/abir_murgi vs abir_chattrogram</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 62: abir/abir_neel vs tonmoy_chattrogram</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 63: abir/abir_noy vs towsic_chattrogram</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 64: abir/abir_office vs abir_choy</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 65: abir/abir_paani vs tonmoy_choy</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 66: abir/abir_pach vs towsic_choy</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 67: abir/abir_pakha vs abir_coffee</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 68: abir/abir_pepe vs tonmoy_coffee</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 69: abir/abir_poribar vs towsic_coffee</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 70: abir/abir_rajshahi vs abir_collage</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 71: abir/abir_rangpur vs tonmoy_collage</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 72: abir/abir_robibar vs towsic_collage</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 73: abir/abir_ruti vs abir_computer</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 74: abir/abir_school vs tonmoy_computer</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 75: abir/abir_shada vs towsic_computer</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 76: abir/abir_shami vs abir_cricket</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 77: abir/abir_shat vs tonmoy_cricket</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 78: abir/abir_shobji vs towsic_cricket</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 79: abir/abir_shobuj vs abir_daal</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 80: abir/abir_shombar vs tonmoy_daal</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 81: abir/abir_shonibar vs towsic_daal</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 82: abir/abir_shoptaho vs abir_dekha</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 83: abir/abir_shukrobar vs tonmoy_dekha</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 84: abir/abir_shunno vs towsic_dekha</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 85: abir/abir_stri vs abir_dhaka</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 86: abir/abir_syllet vs tonmoy_dhaka</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 87: abir/abir_television vs towsic_dhaka</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 88: abir/abir_tin vs abir_dhonnobad</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 89: abir/abir_vaat vs tonmoy_dhonnobad</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 90: tonmoy/tonmoy_aam vs towsic_dhonnobad</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 91: tonmoy/tonmoy_aat vs abir_din</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 92: tonmoy/tonmoy_angur vs tonmoy_din</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 93: tonmoy/tonmoy_apel vs towsic_din</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 94: tonmoy/tonmoy_asha vs abir_dosh</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 95: tonmoy/tonmoy_baba vs tonmoy_dosh</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 96: tonmoy/tonmoy_barishal vs towsic_dosh</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 97: tonmoy/tonmoy_bati vs abir_dudh</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 98: tonmoy/tonmoy_bhai vs tonmoy_dudh</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 99: tonmoy/tonmoy_bishshobiddaloy vs towsic_dudh</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 100: tonmoy/tonmoy_bivag vs abir_dui</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 101: tonmoy/tonmoy_bochor vs tonmoy_dui</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 102: tonmoy/tonmoy_boi vs towsic_dui</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 103: tonmoy/tonmoy_bon vs abir_eek</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 104: tonmoy/tonmoy_bondhu vs tonmoy_eek</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 105: tonmoy/tonmoy_brihospotibar vs towsic_eek</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 106: tonmoy/tonmoy_budhbar vs abir_football</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 107: tonmoy/tonmoy_caca vs tonmoy_football</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 108: tonmoy/tonmoy_cha vs towsic_football</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 109: tonmoy/tonmoy_char vs abir_fufu</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 110: tonmoy/tonmoy_chattrogram vs tonmoy_fufu</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 111: tonmoy/tonmoy_choy vs towsic_fufu</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 112: tonmoy/tonmoy_coffee vs abir_ghumano</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 113: tonmoy/tonmoy_collage vs tonmoy_ghumano</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 114: tonmoy/tonmoy_computer vs towsic_ghumano</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 115: tonmoy/tonmoy_cricket vs abir_hata</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 116: tonmoy/tonmoy_daal vs tonmoy_hata</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 117: tonmoy/tonmoy_dekha vs towsic_hata</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 118: tonmoy/tonmoy_dhaka vs abir_hello</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 119: tonmoy/tonmoy_dhonnobad vs tonmoy_hello</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 120: tonmoy/tonmoy_din vs towsic_hello</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 121: tonmoy/tonmoy_dosh vs abir_holud</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 122: tonmoy/tonmoy_dudh vs tonmoy_holud</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 123: tonmoy/tonmoy_dui vs towsic_holud</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 124: tonmoy/tonmoy_eek vs abir_internet</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 125: tonmoy/tonmoy_football vs tonmoy_internet</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 126: tonmoy/tonmoy_fufu vs towsic_internet</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 127: tonmoy/tonmoy_ghumano vs abir_jawa</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 128: tonmoy/tonmoy_hata vs tonmoy_jawa</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 129: tonmoy/tonmoy_hello vs towsic_jawa</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 130: tonmoy/tonmoy_holud vs abir_kaaz</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 131: tonmoy/tonmoy_internet vs tonmoy_kaaz</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 132: tonmoy/tonmoy_jawa vs towsic_kaaz</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 133: tonmoy/tonmoy_kaaz vs abir_kalo</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 135: tonmoy/tonmoy_kathal vs towsic_kalo</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 136: tonmoy/tonmoy_khala vs abir_kathal</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 137: tonmoy/tonmoy_khulna vs tonmoy_kathal</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 138: tonmoy/tonmoy_kola vs towsic_kathal</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 139: tonmoy/tonmoy_kolom vs abir_khala</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 140: tonmoy/tonmoy_komola vs tonmoy_khala</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 141: tonmoy/tonmoy_laal vs towsic_khala</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 142: tonmoy/tonmoy_ma vs abir_khulna</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 143: tonmoy/tonmoy_maach vs tonmoy_khulna</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 144: tonmoy/tonmoy_mangsho vs towsic_khulna</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 145: tonmoy/tonmoy_mash vs abir_kola</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 146: tonmoy/tonmoy_maymansingh vs tonmoy_kola</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 147: tonmoy/tonmoy_mishti vs towsic_kola</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 148: tonmoy/tonmoy_mobile vs abir_kolom</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 149: tonmoy/tonmoy_mongolbar vs tonmoy_kolom</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 150: tonmoy/tonmoy_murgi vs towsic_kolom</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 151: tonmoy/tonmoy_neel vs abir_komola</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 152: tonmoy/tonmoy_noy vs tonmoy_komola</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 153: tonmoy/tonmoy_office vs towsic_komola</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 154: tonmoy/tonmoy_paani vs abir_laal</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 155: tonmoy/tonmoy_pach vs tonmoy_laal</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 156: tonmoy/tonmoy_pakha vs towsic_laal</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 157: tonmoy/tonmoy_pepe vs abir_ma</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 158: tonmoy/tonmoy_poribar vs tonmoy_ma</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 159: tonmoy/tonmoy_rajshahi vs towsic_ma</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 160: tonmoy/tonmoy_rangpur vs abir_maach</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 161: tonmoy/tonmoy_robibar vs tonmoy_maach</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 162: tonmoy/tonmoy_ruti vs towsic_maach</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 163: tonmoy/tonmoy_school vs abir_mangsho</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 164: tonmoy/tonmoy_shada vs tonmoy_mangsho</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 165: tonmoy/tonmoy_shami vs towsic_mangsho</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 166: tonmoy/tonmoy_shat vs abir_mash</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 167: tonmoy/tonmoy_shobji vs tonmoy_mash</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 168: tonmoy/tonmoy_shobuj vs towsic_mash</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 169: tonmoy/tonmoy_shombar vs abir_maymansingh</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 170: tonmoy/tonmoy_shonibar vs tonmoy_maymansingh</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 171: tonmoy/tonmoy_shoptaho vs towsic_maymansingh</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 172: tonmoy/tonmoy_shukrobar vs abir_mishti</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 173: tonmoy/tonmoy_shunno vs tonmoy_mishti</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 174: tonmoy/tonmoy_stri vs towsic_mishti</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 175: tonmoy/tonmoy_syllet vs abir_mobile</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 176: tonmoy/tonmoy_television vs tonmoy_mobile</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 177: tonmoy/tonmoy_tin vs towsic_mobile</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 178: tonmoy/tonmoy_vaat vs abir_mongolbar</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 179: towsic/towsic_aam vs tonmoy_mongolbar</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 180: towsic/towsic_aat vs towsic_mongolbar</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 181: towsic/towsic_angur vs abir_murgi</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 182: towsic/towsic_apel vs tonmoy_murgi</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 183: towsic/towsic_asha vs towsic_murgi</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 184: towsic/towsic_baba vs abir_neel</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 185: towsic/towsic_barishal vs tonmoy_neel</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 186: towsic/towsic_bati vs towsic_neel</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 187: towsic/towsic_bhai vs abir_noy</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 188: towsic/towsic_bishshobiddaloy vs tonmoy_noy</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 189: towsic/towsic_bivag vs towsic_noy</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 190: towsic/towsic_bochor vs abir_office</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 191: towsic/towsic_boi vs tonmoy_office</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 192: towsic/towsic_bon vs towsic_office</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 193: towsic/towsic_bondhu vs abir_paani</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 194: towsic/towsic_brihospotibar vs tonmoy_paani</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 195: towsic/towsic_budhbar vs towsic_paani</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 196: towsic/towsic_caca vs abir_pach</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 197: towsic/towsic_cha vs tonmoy_pach</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 198: towsic/towsic_char vs towsic_pach</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 199: towsic/towsic_chattrogram vs abir_pakha</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 200: towsic/towsic_choy vs tonmoy_pakha</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 201: towsic/towsic_coffee vs towsic_pakha</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 202: towsic/towsic_collage vs abir_pepe</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 203: towsic/towsic_computer vs tonmoy_pepe</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 204: towsic/towsic_cricket vs towsic_pepe</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 205: towsic/towsic_daal vs abir_poribar</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 206: towsic/towsic_dekha vs tonmoy_poribar</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 207: towsic/towsic_dhaka vs towsic_poribar</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 208: towsic/towsic_dhonnobad vs abir_rajshahi</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 209: towsic/towsic_din vs tonmoy_rajshahi</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 210: towsic/towsic_dosh vs towsic_rajshahi</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 211: towsic/towsic_dudh vs abir_rangpur</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 212: towsic/towsic_dui vs tonmoy_rangpur</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 213: towsic/towsic_eek vs towsic_rangpur</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 214: towsic/towsic_football vs abir_robibar</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 215: towsic/towsic_fufu vs tonmoy_robibar</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 216: towsic/towsic_ghumano vs towsic_robibar</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 217: towsic/towsic_hata vs abir_ruti</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 218: towsic/towsic_hello vs tonmoy_ruti</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 219: towsic/towsic_holud vs towsic_ruti</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 220: towsic/towsic_internet vs abir_school</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 221: towsic/towsic_jawa vs tonmoy_school</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 222: towsic/towsic_kaaz vs towsic_school</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 223: towsic/towsic_kalo vs abir_shada</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 224: towsic/towsic_kathal vs tonmoy_shada</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 225: towsic/towsic_khala vs towsic_shada</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 226: towsic/towsic_khulna vs abir_shami</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 227: towsic/towsic_kola vs tonmoy_shami</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 228: towsic/towsic_kolom vs towsic_shami</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 229: towsic/towsic_komola vs abir_shat</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 230: towsic/towsic_laal vs tonmoy_shat</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 231: towsic/towsic_ma vs towsic_shat</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 232: towsic/towsic_maach vs abir_shobji</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 233: towsic/towsic_mangsho vs tonmoy_shobji</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 234: towsic/towsic_mash vs towsic_shobji</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 235: towsic/towsic_maymansingh vs abir_shobuj</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 236: towsic/towsic_mishti vs tonmoy_shobuj</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 237: towsic/towsic_mobile vs towsic_shobuj</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 238: towsic/towsic_mongolbar vs abir_shombar</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 239: towsic/towsic_murgi vs tonmoy_shombar</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 240: towsic/towsic_neel vs towsic_shombar</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 241: towsic/towsic_noy vs abir_shonibar</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 242: towsic/towsic_office vs tonmoy_shonibar</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 243: towsic/towsic_paani vs towsic_shonibar</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 244: towsic/towsic_pach vs abir_shoptaho</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 245: towsic/towsic_pakha vs tonmoy_shoptaho</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 246: towsic/towsic_pepe vs towsic_shoptaho</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 247: towsic/towsic_poribar vs abir_shukrobar</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 248: towsic/towsic_rajshahi vs tonmoy_shukrobar</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 249: towsic/towsic_rangpur vs towsic_shukrobar</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 250: towsic/towsic_robibar vs abir_shunno</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 251: towsic/towsic_ruti vs tonmoy_shunno</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 252: towsic/towsic_school vs towsic_shunno</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 253: towsic/towsic_shada vs abir_stri</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 254: towsic/towsic_shami vs tonmoy_stri</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 255: towsic/towsic_shat vs towsic_stri</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 256: towsic/towsic_shobji vs abir_syllet</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 257: towsic/towsic_shobuj vs tonmoy_syllet</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 258: towsic/towsic_shombar vs towsic_syllet</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 259: towsic/towsic_shonibar vs abir_television</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 260: towsic/towsic_shoptaho vs tonmoy_television</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 261: towsic/towsic_shukrobar vs towsic_television</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 262: towsic/towsic_shunno vs abir_tin</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 263: towsic/towsic_stri vs tonmoy_tin</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 264: towsic/towsic_syllet vs towsic_tin</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 265: towsic/towsic_television vs abir_vaat</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 266: towsic/towsic_tin vs tonmoy_vaat</p>
+<span class='status FAILED'>FAILED</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2020-12-28 22:53)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/000.comp_feat/bangla.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/000.comp_feat/bangla.test-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2020-12-28 22:53)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 97 words using 36 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.042575</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 94</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 0000 train grapheme-to-phoneme model	(2020-12-28 22:53)</h3>
+<p>Skipped (set $CFG_G2P_MODEL = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 01 Train LDA transformation	(2020-12-28 22:53)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 02 Train MLLT transformation	(2020-12-28 22:53)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 05 Vector Quantization	(2020-12-28 22:53)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: 10 Training Context Independent models for forced alignment and VTLN	(2020-12-28 22:53)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 11 Force-aligning transcripts	(2020-12-28 22:53)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 12 Force-aligning data for VTLN	(2020-12-28 22:53)</h3>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 20 Training Context Independent models	(2020-12-28 22:53)</h3>
+<p class='phase'>Phase 1: Cleaning up directories:</p>
+<span class='progress'>	accumulator...</span>
+<span class='progress'>logs...</span>
+<span class='progress'>qmanager...</span>
+<span class='progress'>models...
+</span>
+<span class='status completed'>completed</span>
+<p class='phase'>Phase 2: Flat initialize</p>
+<p class='result'>mk_mdef_gen <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.make_ci_mdef_fromphonelist.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>mk_flat <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.makeflat_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.initmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.normmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.initvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.normvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.cpmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.cpvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='phase'>Phase 3: Forward-Backward</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 1 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.1-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 1</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.1.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -151.261173093234</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 2 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.2-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 2</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.2.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -149.281268349971</p>
+<p class='result'>Convergence Ratio = 1.97990474326335</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 3 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.3-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 3</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.3.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -147.91407320415</p>
+<p class='result'>Convergence Ratio = 1.36719514582146</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 4 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.4-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 4</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.4.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -147.510080250538</p>
+<p class='result'>Convergence Ratio = 0.40399295361172</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 5 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.5-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 5</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.5.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -147.401122202649</p>
+<p class='result'>Convergence Ratio = 0.108958047889104</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 6 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.6-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 6</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.6.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -147.362301820317</p>
+<p class='result'>Training completed after 6 iterations</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 60 Lattice Generation	(2020-12-28 22:53)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 61 Lattice Pruning	(2020-12-28 22:53)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 62 Lattice Format Conversion	(2020-12-28 22:53)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 65 MMIE Training	(2020-12-28 22:53)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 90 deleted interpolation	(2020-12-28 22:53)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: DECODE Decoding using models previously trained	(2020-12-28 22:53)</h3>
+<p class='result'>Decoding 267 segments starting at 0 (part 1 of 1) </p>
+<p class='result'>pocketsphinx_batch <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/decode/bangla-1-1.log">Log File</a></p><p class='error'>ERROR: This step had 4 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p>        Aligning results to find error rate</p>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2020-12-29 10:54)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/000.comp_feat/bangla.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/000.comp_feat/bangla.test-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2020-12-29 10:54)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 97 words using 36 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.0427472222222222</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 94</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 0000 train grapheme-to-phoneme model	(2020-12-29 10:54)</h3>
+<p>Skipped (set $CFG_G2P_MODEL = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 01 Train LDA transformation	(2020-12-29 10:54)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 02 Train MLLT transformation	(2020-12-29 10:54)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 05 Vector Quantization	(2020-12-29 10:54)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: 10 Training Context Independent models for forced alignment and VTLN	(2020-12-29 10:54)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 11 Force-aligning transcripts	(2020-12-29 10:54)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 12 Force-aligning data for VTLN	(2020-12-29 10:54)</h3>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 20 Training Context Independent models	(2020-12-29 10:54)</h3>
+<p class='phase'>Phase 1: Cleaning up directories:</p>
+<span class='progress'>	accumulator...</span>
+<span class='progress'>logs...</span>
+<span class='progress'>qmanager...</span>
+<span class='progress'>models...
+</span>
+<span class='status completed'>completed</span>
+<p class='phase'>Phase 2: Flat initialize</p>
+<p class='result'>mk_mdef_gen <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.make_ci_mdef_fromphonelist.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>mk_flat <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.makeflat_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.initmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.normmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.initvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.normvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.cpmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.cpvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='phase'>Phase 3: Forward-Backward</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 1 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.1-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 1</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.1.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -151.252193124959</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 2 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.2-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 2</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.2.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -149.280719994801</p>
+<p class='result'>Convergence Ratio = 1.97147313015753</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 3 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.3-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 3</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.3.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -147.917993371889</p>
+<p class='result'>Convergence Ratio = 1.36272662291196</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 4 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.4-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 4</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.4.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -147.515822990448</p>
+<p class='result'>Convergence Ratio = 0.402170381441266</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 5 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.5-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 5</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.5.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -147.406784066541</p>
+<p class='result'>Convergence Ratio = 0.109038923906951</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 6 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.6-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 6</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.6.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -147.368444993177</p>
+<p class='result'>Training completed after 6 iterations</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 60 Lattice Generation	(2020-12-29 10:54)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 61 Lattice Pruning	(2020-12-29 10:54)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 62 Lattice Format Conversion	(2020-12-29 10:54)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 65 MMIE Training	(2020-12-29 10:54)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 90 deleted interpolation	(2020-12-29 10:54)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: DECODE Decoding using models previously trained	(2020-12-29 10:54)</h3>
+<p class='result'>Decoding 267 segments starting at 0 (part 1 of 1) </p>
+<p class='result'>pocketsphinx_batch <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/decode/bangla-1-1.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p>        Aligning results to find error rate</p>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2020-12-29 11:02)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/000.comp_feat/bangla.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/000.comp_feat/bangla.test-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2020-12-29 11:02)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 97 words using 36 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.0429527777777778</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 94</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 0000 train grapheme-to-phoneme model	(2020-12-29 11:02)</h3>
+<p>Skipped (set $CFG_G2P_MODEL = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 01 Train LDA transformation	(2020-12-29 11:02)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 02 Train MLLT transformation	(2020-12-29 11:02)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 05 Vector Quantization	(2020-12-29 11:02)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: 10 Training Context Independent models for forced alignment and VTLN	(2020-12-29 11:02)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 11 Force-aligning transcripts	(2020-12-29 11:02)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 12 Force-aligning data for VTLN	(2020-12-29 11:02)</h3>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 20 Training Context Independent models	(2020-12-29 11:02)</h3>
+<p class='phase'>Phase 1: Cleaning up directories:</p>
+<span class='progress'>	accumulator...</span>
+<span class='progress'>logs...</span>
+<span class='progress'>qmanager...</span>
+<span class='progress'>models...
+</span>
+<span class='status completed'>completed</span>
+<p class='phase'>Phase 2: Flat initialize</p>
+<p class='result'>mk_mdef_gen <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.make_ci_mdef_fromphonelist.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>mk_flat <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.makeflat_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.initmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.normmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.initvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.normvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.cpmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.cpvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='phase'>Phase 3: Forward-Backward</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 1 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.1-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 1</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.1.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -151.245553902865</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 2 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.2-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 2</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.2.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -149.285714285714</p>
+<p class='result'>Convergence Ratio = 1.95983961715072</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 3 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.3-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 3</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.3.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -147.920778632866</p>
+<p class='result'>Convergence Ratio = 1.36493565284843</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 4 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.4-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 4</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.4.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -147.520403543944</p>
+<p class='result'>Convergence Ratio = 0.400375088922374</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 5 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.5-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 5</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.5.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -147.411886438595</p>
+<p class='result'>Convergence Ratio = 0.108517105348653</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 6 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.6-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 6</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.6.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -147.372502101791</p>
+<p class='result'>Training completed after 6 iterations</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 60 Lattice Generation	(2020-12-29 11:02)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 61 Lattice Pruning	(2020-12-29 11:02)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 62 Lattice Format Conversion	(2020-12-29 11:02)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 65 MMIE Training	(2020-12-29 11:02)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 90 deleted interpolation	(2020-12-29 11:02)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: DECODE Decoding using models previously trained	(2020-12-29 11:02)</h3>
+<p class='result'>Decoding 267 segments starting at 0 (part 1 of 1) </p>
+<p class='result'>pocketsphinx_batch <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/decode/bangla-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p>        Aligning results to find error rate</p>
+<p class='result'>SENTENCE ERROR: 55.4% (148/267)   WORD ERROR RATE: 68.2% (181/267)</p>
+<p class='result'><hr>
+<h3>MODULE: 000 Computing feature from audio files	(2020-12-29 11:10)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/000.comp_feat/bangla.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/000.comp_feat/bangla.test-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2020-12-29 11:10)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='warning'>WARNING: The phonelist (/media/abir/Workplace/Thesis/bangla-words/etc/bangla.phone) does not define the phone SIL (required!)</p>
+<p class='result'>Found 92 words using 90 phones</p>
+<p class='warning'>WARNING: This phone (SIL) occurs in the dictionary (/media/abir/Workplace/Thesis/bangla-words/etc/bangla.dic), but not in the phonelist (/media/abir/Workplace/Thesis/bangla-words/etc/bangla.phone)</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.0429527777777778</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 89</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2020-12-29 11:11)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/000.comp_feat/bangla.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/000.comp_feat/bangla.test-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2020-12-29 11:11)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 92 words using 90 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.0429527777777778</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 89</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 0000 train grapheme-to-phoneme model	(2020-12-29 11:11)</h3>
+<p>Skipped (set $CFG_G2P_MODEL = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 01 Train LDA transformation	(2020-12-29 11:11)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 02 Train MLLT transformation	(2020-12-29 11:11)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 05 Vector Quantization	(2020-12-29 11:11)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: 10 Training Context Independent models for forced alignment and VTLN	(2020-12-29 11:11)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 11 Force-aligning transcripts	(2020-12-29 11:11)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 12 Force-aligning data for VTLN	(2020-12-29 11:11)</h3>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 20 Training Context Independent models	(2020-12-29 11:11)</h3>
+<p class='phase'>Phase 1: Cleaning up directories:</p>
+<span class='progress'>	accumulator...</span>
+<span class='progress'>logs...</span>
+<span class='progress'>qmanager...</span>
+<span class='progress'>models...
+</span>
+<span class='status completed'>completed</span>
+<p class='phase'>Phase 2: Flat initialize</p>
+<p class='result'>mk_mdef_gen <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.make_ci_mdef_fromphonelist.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>mk_flat <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.makeflat_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.initmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.normmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.initvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.normvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.cpmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.cpvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='phase'>Phase 3: Forward-Backward</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 1 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.1-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 1</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.1.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -151.157408006208</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 2 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.2-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 2</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.2.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -149.016426307961</p>
+<p class='result'>Convergence Ratio = 2.14098169824706</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 3 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.3-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 3</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.3.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -147.448101920714</p>
+<p class='result'>Convergence Ratio = 1.56832438724706</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 4 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.4-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 4</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.4.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -147.045204682144</p>
+<p class='result'>Convergence Ratio = 0.402897238569523</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 5 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.5-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 5</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.5.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -146.949945030072</p>
+<p class='result'>Training completed after 5 iterations</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 60 Lattice Generation	(2020-12-29 11:11)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 61 Lattice Pruning	(2020-12-29 11:11)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 62 Lattice Format Conversion	(2020-12-29 11:11)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 65 MMIE Training	(2020-12-29 11:11)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 90 deleted interpolation	(2020-12-29 11:11)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: DECODE Decoding using models previously trained	(2020-12-29 11:11)</h3>
+<p class='result'>Decoding 267 segments starting at 0 (part 1 of 1) </p>
+<p class='result'>pocketsphinx_batch <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/decode/bangla-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p>        Aligning results to find error rate</p>
+<p class='result'>SENTENCE ERROR: 3.4% (9/267)   WORD ERROR RATE: 19.5% (52/267)</p>
+<p class='result'><hr>
+<h3>MODULE: DECODE Decoding using models previously trained	(2020-12-29 18:56)</h3>
+<p class='result'>Decoding 267 segments starting at 0 (part 1 of 1) </p>
+<p class='result'>pocketsphinx_batch <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/decode/bangla-1-1.log">Log File</a></p><p class='error'>ERROR: FATAL: "batch.c", line 913: PocketSphinx decoder init failed</p>
+<p class='error'>ERROR: This step had 1 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status FAILED'>FAILED</span>
+<p class='error'>ERROR: Failed to start pocketsphinx_batch</p>
+<p>        Aligning results to find error rate</p>
+<p class='result'>SENTENCE ERROR: 3.4% (9/267)   WORD ERROR RATE: 19.5% (52/267)</p>
+<p class='result'><hr>
+<h3>MODULE: DECODE Decoding using models previously trained	(2020-12-29 18:57)</h3>
+<p class='result'>Decoding 267 segments starting at 0 (part 1 of 1) </p>
+<p class='result'>pocketsphinx_batch <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/decode/bangla-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p>        Aligning results to find error rate</p>
+<p class='result'>SENTENCE ERROR: 3.4% (9/267)   WORD ERROR RATE: 19.5% (52/267)</p>
+<p class='result'><hr>
+<h3>MODULE: 000 Computing feature from audio files	(2020-12-29 19:31)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/000.comp_feat/bangla.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/000.comp_feat/bangla.test-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2020-12-29 19:31)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 92 words using 90 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.0462083333333333</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 89</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 0000 train grapheme-to-phoneme model	(2020-12-29 19:31)</h3>
+<p>Skipped (set $CFG_G2P_MODEL = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 01 Train LDA transformation	(2020-12-29 19:31)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 02 Train MLLT transformation	(2020-12-29 19:31)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 05 Vector Quantization	(2020-12-29 19:31)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: 10 Training Context Independent models for forced alignment and VTLN	(2020-12-29 19:31)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 11 Force-aligning transcripts	(2020-12-29 19:31)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 12 Force-aligning data for VTLN	(2020-12-29 19:31)</h3>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 20 Training Context Independent models	(2020-12-29 19:31)</h3>
+<p class='phase'>Phase 1: Cleaning up directories:</p>
+<span class='progress'>	accumulator...</span>
+<span class='progress'>logs...</span>
+<span class='progress'>qmanager...</span>
+<span class='progress'>models...
+</span>
+<span class='status completed'>completed</span>
+<p class='phase'>Phase 2: Flat initialize</p>
+<p class='result'>mk_mdef_gen <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.make_ci_mdef_fromphonelist.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>mk_flat <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.makeflat_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.initmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.normmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.initvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.normvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.cpmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.cpvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='phase'>Phase 3: Forward-Backward</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 1 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.1-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 1</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.1.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -151.757439134355</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 2 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.2-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 2</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.2.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -149.394108806733</p>
+<p class='result'>Convergence Ratio = 2.36333032762221</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 3 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.3-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 3</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.3.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -147.868770664262</p>
+<p class='result'>Convergence Ratio = 1.5253381424709</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 4 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.4-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 4</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.4.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -147.452780282537</p>
+<p class='result'>Convergence Ratio = 0.41599038172518</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 5 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.5-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 5</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.5.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -147.349383829276</p>
+<p class='result'>Convergence Ratio = 0.103396453261382</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 6 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.6-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 6</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.6.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -147.307724676886</p>
+<p class='result'>Training completed after 6 iterations</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 60 Lattice Generation	(2020-12-29 19:31)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 61 Lattice Pruning	(2020-12-29 19:31)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 62 Lattice Format Conversion	(2020-12-29 19:31)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 65 MMIE Training	(2020-12-29 19:31)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 90 deleted interpolation	(2020-12-29 19:31)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: DECODE Decoding using models previously trained	(2020-12-29 19:31)</h3>
+<p class='result'>Decoding 276 segments starting at 0 (part 1 of 1) </p>
+<p class='result'>pocketsphinx_batch <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/decode/bangla-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p>        Aligning results to find error rate</p>
+<p class='result'>SENTENCE ERROR: 6.9% (19/276)   WORD ERROR RATE: 22.8% (63/276)</p>
+<p class='result'><hr>
+<h3>MODULE: 000 Computing feature from audio files	(2021-01-19 22:21)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/000.comp_feat/bangla.train-1-1.log">Log File</a></p><p class='error'>ERROR: This step had 1 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/000.comp_feat/bangla.test-1-1.log">Log File</a></p><p class='error'>ERROR: This step had 1 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2021-01-19 22:21)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 92 words using 90 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<p class='warning'>WARNING: Error in '/media/abir/Workplace/Thesis/bangla-words/etc/bangla_train.fileids', the feature file '/media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_dhaka01.mfc' does not exist, or is empty</p>
+<span class='status FAILED'>FAILED</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.0946081196581197</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 89</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2021-01-19 22:23)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/000.comp_feat/bangla.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/000.comp_feat/bangla.test-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2021-01-19 22:23)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 92 words using 90 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.0946083333333333</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 89</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 0000 train grapheme-to-phoneme model	(2021-01-19 22:23)</h3>
+<p>Skipped (set $CFG_G2P_MODEL = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 01 Train LDA transformation	(2021-01-19 22:23)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 02 Train MLLT transformation	(2021-01-19 22:23)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 05 Vector Quantization	(2021-01-19 22:23)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: 10 Training Context Independent models for forced alignment and VTLN	(2021-01-19 22:23)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 11 Force-aligning transcripts	(2021-01-19 22:23)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 12 Force-aligning data for VTLN	(2021-01-19 22:23)</h3>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 20 Training Context Independent models	(2021-01-19 22:23)</h3>
+<p class='phase'>Phase 1: Cleaning up directories:</p>
+<span class='progress'>	accumulator...</span>
+<span class='progress'>logs...</span>
+<span class='progress'>qmanager...</span>
+<span class='progress'>models...
+</span>
+<span class='status completed'>completed</span>
+<p class='phase'>Phase 2: Flat initialize</p>
+<p class='result'>mk_mdef_gen <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.make_ci_mdef_fromphonelist.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>mk_flat <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.makeflat_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.initmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.normmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.initvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.normvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.cpmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.cpvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='phase'>Phase 3: Forward-Backward</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 1 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.1-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 1</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.1.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -155.892157726298</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 2 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.2-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 2</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.2.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -153.840688217505</p>
+<p class='result'>Convergence Ratio = 2.05146950879308</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 3 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.3-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 3</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.3.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -152.1932528847</p>
+<p class='result'>Convergence Ratio = 1.64743533280492</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 4 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.4-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 4</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.4.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -151.916527202795</p>
+<p class='result'>Convergence Ratio = 0.27672568190485</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 5 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.5-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 5</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.5.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -151.831645086468</p>
+<p class='result'>Training completed after 5 iterations</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 60 Lattice Generation	(2021-01-19 22:23)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 61 Lattice Pruning	(2021-01-19 22:23)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 62 Lattice Format Conversion	(2021-01-19 22:23)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 65 MMIE Training	(2021-01-19 22:23)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 90 deleted interpolation	(2021-01-19 22:23)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: DECODE Decoding using models previously trained	(2021-01-19 22:23)</h3>
+<p class='result'>Decoding 444 segments starting at 0 (part 1 of 1) </p>
+<p class='result'>pocketsphinx_batch <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/decode/bangla-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p>        Aligning results to find error rate</p>
+<p class='result'>SENTENCE ERROR: 54.5% (242/444)   WORD ERROR RATE: 68.7% (304/444)</p>
+<p class='result'><hr>
+<h3>MODULE: 000 Computing feature from audio files	(2021-01-21 18:26)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/000.comp_feat/bangla.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/000.comp_feat/bangla.test-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2021-01-21 18:26)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 92 words using 90 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.0946083333333333</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 89</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 0000 train grapheme-to-phoneme model	(2021-01-21 18:26)</h3>
+<p>Skipped (set $CFG_G2P_MODEL = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 01 Train LDA transformation	(2021-01-21 18:26)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 02 Train MLLT transformation	(2021-01-21 18:26)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 05 Vector Quantization	(2021-01-21 18:26)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: 10 Training Context Independent models for forced alignment and VTLN	(2021-01-21 18:26)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 11 Force-aligning transcripts	(2021-01-21 18:26)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 12 Force-aligning data for VTLN	(2021-01-21 18:26)</h3>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 20 Training Context Independent models	(2021-01-21 18:26)</h3>
+<p class='phase'>Phase 1: Cleaning up directories:</p>
+<span class='progress'>	accumulator...</span>
+<span class='progress'>logs...</span>
+<span class='progress'>qmanager...</span>
+<span class='progress'>models...
+</span>
+<span class='status completed'>completed</span>
+<p class='phase'>Phase 2: Flat initialize</p>
+<p class='result'>mk_mdef_gen <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.make_ci_mdef_fromphonelist.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>mk_flat <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.makeflat_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.initmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.normmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.initvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.normvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.cpmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.cpvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='phase'>Phase 3: Forward-Backward</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 1 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.1-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 1</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.1.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -155.892157726298</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 2 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.2-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 2</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.2.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -153.840688217505</p>
+<p class='result'>Convergence Ratio = 2.05146950879308</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 3 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.3-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 3</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.3.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -152.1932528847</p>
+<p class='result'>Convergence Ratio = 1.64743533280492</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 4 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.4-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 4</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.4.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -151.916527202795</p>
+<p class='result'>Convergence Ratio = 0.27672568190485</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 5 (1 of 1)</p>
+<p class='result'>bw <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.5-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 5</p>
+<p class='result'>norm <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/20.ci_hmm/bangla.1.5.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -151.831645086468</p>
+<p class='result'>Training completed after 5 iterations</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 60 Lattice Generation	(2021-01-21 18:26)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 61 Lattice Pruning	(2021-01-21 18:26)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 62 Lattice Format Conversion	(2021-01-21 18:26)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 65 MMIE Training	(2021-01-21 18:26)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 90 deleted interpolation	(2021-01-21 18:26)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: DECODE Decoding using models previously trained	(2021-01-21 18:26)</h3>
+<p class='result'>Decoding 444 segments starting at 0 (part 1 of 1) </p>
+<p class='result'>pocketsphinx_batch <a href="file:///media/abir/Workplace/Thesis/bangla-words/logdir/decode/bangla-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p>        Aligning results to find error rate</p>
+<p class='result'>SENTENCE ERROR: 54.5% (242/444)   WORD ERROR RATE: 68.7% (304/444)</p>
+<p class='result'>

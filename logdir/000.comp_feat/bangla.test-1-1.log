@@ -1,0 +1,504 @@
+Current configuration:
+[NAME]			[DEFLT]		[VALUE]
+-alpha			0.97		9.700000e-01
+-argfile				
+-blocksize		2048		2048
+-build_outdirs		yes		yes
+-c					/media/abir/Workplace/Thesis/bangla-words/etc/bangla_test.fileids
+-cep2spec		no		no
+-di					/media/abir/Workplace/Thesis/bangla-words/wav
+-dither			no		no
+-do					/media/abir/Workplace/Thesis/bangla-words/feat
+-doublebw		no		no
+-ei					wav
+-eo					mfc
+-example		no		no
+-frate			100		100
+-help			no		no
+-i					
+-input_endian		little		little
+-lifter			0		22
+-logspec		no		no
+-lowerf			133.33334	2.000000e+02
+-mach_endian		little		little
+-mswav			no		yes
+-ncep			13		13
+-nchans			1		1
+-nfft			512		512
+-nfilt			40		31
+-nist			no		no
+-npart			0		1
+-nskip			0		0
+-o					
+-ofmt			sphinx		sphinx
+-part			0		1
+-raw			no		no
+-remove_dc		no		no
+-remove_noise		yes		yes
+-remove_silence		yes		yes
+-round_filters		yes		yes
+-runlen			-1		-1
+-samprate		16000		8.000000e+03
+-seed			-1		-1
+-smoothspec		no		no
+-spec2cep		no		no
+-sph2pipe		no		no
+-transform		legacy		dct
+-unit_area		yes		yes
+-upperf			6855.4976	3.500000e+03
+-vad_postspeech		50		50
+-vad_prespeech		20		20
+-vad_startspeech	10		10
+-vad_threshold		3.0		3.000000e+00
+-verbose		no		no
+-warp_params				
+-warp_type		inverse_linear	inverse_linear
+-whichchan		0		0
+-wlen			0.025625	2.562500e-02
+
+INFO: sphinx_fe.c(971): Processing all remaining utterances at position 0
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_aam.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_aam.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_aam01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_aam01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_aam02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_aam02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_aam.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_aam.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_aam.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_aam.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_aat.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_aat.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_aat01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_aat01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_aat02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_aat02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_aat.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_aat.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_aat.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_aat.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_angur.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_angur.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_angur01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_angur01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_angur02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_angur02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_angur.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_angur.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_angur.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_angur.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_apel.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_apel.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_apel01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_apel01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_apel02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_apel02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_apel.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_apel.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_apel.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_apel.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_asha.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_asha.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_asha01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_asha01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_asha02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_asha02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_asha.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_asha.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_asha.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_asha.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_baba.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_baba.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_baba01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_baba01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_baba02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_baba02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_baba.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_baba.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_baba.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_baba.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_barishal.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_barishal.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_barishal01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_barishal01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_barishal02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_barishal02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_barishal.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_barishal.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_barishal.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_barishal.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_bati.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_bati.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_bati01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_bati01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_bati02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_bati02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_bati.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_bati.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_bati.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_bati.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_bhai.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_bhai.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_bhai01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_bhai01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_bhai02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_bhai02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_bhai.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_bhai.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_bhai.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_bhai.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_bishshobiddaloy.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_bishshobiddaloy.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_bishshobiddaloy01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_bishshobiddaloy01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_bishshobiddaloy02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_bishshobiddaloy02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_bishshobiddaloy.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_bishshobiddaloy.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_bishshobiddaloy.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_bishshobiddaloy.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_bivag.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_bivag.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_bivag01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_bivag01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_bivag02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_bivag02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_bivag.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_bivag.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_bivag.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_bivag.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_bochor.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_bochor.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_bochor01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_bochor01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_bochor02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_bochor02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_bochor.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_bochor.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_bochor.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_bochor.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_boi.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_boi.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_boi01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_boi01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_boi02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_boi02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_boi.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_boi.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_boi.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_boi.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_bon.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_bon.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_bon01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_bon01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_bon02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_bon02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_bon.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_bon.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_bon.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_bon.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_bondhu.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_bondhu.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_bondhu01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_bondhu01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_bondhu02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_bondhu02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_bondhu.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_bondhu.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_bondhu.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_bondhu.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_brihospotibar.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_brihospotibar.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_brihospotibar01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_brihospotibar01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_brihospotibar02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_brihospotibar02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_brihospotibar.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_brihospotibar.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_brihospotibar.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_brihospotibar.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_budhbar.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_budhbar.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_budhbar01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_budhbar01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_budhbar02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_budhbar02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_budhbar.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_budhbar.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_budhbar.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_budhbar.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_caca.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_caca.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_caca01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_caca01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_caca02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_caca02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_caca.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_caca.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_caca.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_caca.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_cha.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_cha.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_cha01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_cha01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_cha02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_cha02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_cha.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_cha.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_cha.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_cha.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_char.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_char.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_char01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_char01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_char02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_char02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_char.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_char.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_char.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_char.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_chattrogram.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_chattrogram.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_chattrogram01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_chattrogram01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_chattrogram02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_chattrogram02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_chattrogram.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_chattrogram.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_chattrogram.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_chattrogram.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_choy.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_choy.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_choy01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_choy01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_choy02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_choy02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_choy.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_choy.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_choy.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_choy.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_coffee.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_coffee.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_coffee01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_coffee01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_coffee02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_coffee02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_coffee.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_coffee.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_coffee.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_coffee.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_collage.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_collage.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_collage01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_collage01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_collage02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_collage02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_collage.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_collage.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_collage.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_collage.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_computer.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_computer.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_computer01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_computer01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_computer02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_computer02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_computer.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_computer.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_computer.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_computer.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_cricket.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_cricket.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_cricket01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_cricket01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_cricket02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_cricket02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_cricket.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_cricket.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_cricket.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_cricket.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_daal.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_daal.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_daal01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_daal01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_daal02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_daal02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_daal.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_daal.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_daal.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_daal.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_dekha.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_dekha.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_dekha01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_dekha01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_dekha02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_dekha02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_dekha.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_dekha.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_dekha.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_dekha.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_dhaka.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_dhaka.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_dhaka02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_dhaka02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_dhaka.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_dhaka.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_dhaka.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_dhaka.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_dhonnobad.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_dhonnobad.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_dhonnobad01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_dhonnobad01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_dhonnobad02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_dhonnobad02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_dhonnobad.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_dhonnobad.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_dhonnobad.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_dhonnobad.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_din.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_din.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_din01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_din01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_din02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_din02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_din.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_din.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_din.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_din.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_dosh.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_dosh.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_dosh01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_dosh01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_dosh02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_dosh02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_dosh.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_dosh.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_dosh.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_dosh.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_dudh.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_dudh.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_dudh01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_dudh01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_dudh02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_dudh02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_dudh.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_dudh.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_dudh.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_dudh.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_dui.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_dui.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_dui01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_dui01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_dui02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_dui02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_dui.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_dui.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_dui.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_dui.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_eek.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_eek.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_eek01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_eek01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_eek02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_eek02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_eek.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_eek.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_eek.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_eek.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_football.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_football.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_football01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_football01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_football02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_football02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_football.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_football.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_football.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_football.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_fufu.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_fufu.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_fufu01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_fufu01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_fufu02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_fufu02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_fufu.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_fufu.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_fufu.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_fufu.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_ghumano.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_ghumano.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_ghumano01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_ghumano01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_ghumano02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_ghumano02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_ghumano.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_ghumano.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_ghumano.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_ghumano.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_hata.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_hata.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_hata01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_hata01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_hata02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_hata02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_hata.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_hata.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_hata.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_hata.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_hello.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_hello.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_hello01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_hello01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_hello02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_hello02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_hello.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_hello.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_hello.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_hello.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_holud.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_holud.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_holud01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_holud01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_holud02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_holud02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_holud.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_holud.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_holud.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_holud.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_internet.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_internet.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_internet01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_internet01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_internet02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_internet02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_internet.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_internet.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_internet.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_internet.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_jawa.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_jawa.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_jawa01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_jawa01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_jawa02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_jawa02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_jawa.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_jawa.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_jawa.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_jawa.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_kaaz.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_kaaz.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_kaaz01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_kaaz01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_kaaz02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_kaaz02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_kaaz.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_kaaz.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_kaaz.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_kaaz.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_kalo.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_kalo.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_kalo01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_kalo01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_kalo02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_kalo02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_kalo.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_kalo.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_kalo.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_kalo.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_kathal.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_kathal.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_kathal01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_kathal01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_kathal02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_kathal02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_kathal.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_kathal.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_kathal.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_kathal.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_khala.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_khala.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_khala01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_khala01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_khala02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_khala02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_khala.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_khala.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_khala.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_khala.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_khulna.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_khulna.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_khulna01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_khulna01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_khulna02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_khulna02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_khulna.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_khulna.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_khulna.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_khulna.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_kola.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_kola.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_kola01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_kola01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_kola02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_kola02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_kola.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_kola.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_kola.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_kola.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_kolom.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_kolom.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_kolom01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_kolom01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_kolom02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_kolom02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_kolom.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_kolom.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_kolom.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_kolom.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_komola.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_komola.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_komola01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_komola01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_komola02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_komola02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_komola.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_komola.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_komola.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_komola.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_laal.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_laal.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_laal01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_laal01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_laal02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_laal02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_laal.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_laal.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_laal.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_laal.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_ma.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_ma.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_ma01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_ma01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_ma02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_ma02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_ma.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_ma.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_ma.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_ma.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_maach.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_maach.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_maach01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_maach01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_maach02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_maach02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_maach.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_maach.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_maach.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_maach.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_mangsho.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_mangsho.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_mangsho01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_mangsho01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_mangsho02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_mangsho02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_mangsho.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_mangsho.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_mangsho.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_mangsho.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_mash.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_mash.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_mash01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_mash01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_mash02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_mash02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_mash.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_mash.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_mash.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_mash.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_maymansingh.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_maymansingh.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_maymansingh01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_maymansingh01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_maymansingh02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_maymansingh02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_maymansingh.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_maymansingh.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_maymansingh.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_maymansingh.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_mishti.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_mishti.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_mishti01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_mishti01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_mishti02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_mishti02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_mishti.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_mishti.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_mishti.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_mishti.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_mobile.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_mobile.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_mobile01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_mobile01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_mobile02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_mobile02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_mobile.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_mobile.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_mobile.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_mobile.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_mongolbar.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_mongolbar.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_mongolbar01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_mongolbar01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_mongolbar02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_mongolbar02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_mongolbar.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_mongolbar.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_mongolbar.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_mongolbar.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_murgi.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_murgi.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_murgi01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_murgi01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_murgi02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_murgi02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_murgi.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_murgi.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_murgi.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_murgi.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_neel.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_neel.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_neel01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_neel01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_neel02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_neel02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_neel.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_neel.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_neel.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_neel.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_noy.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_noy.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_noy01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_noy01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_noy02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_noy02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_noy.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_noy.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_noy.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_noy.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_office.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_office.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_office01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_office01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_office02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_office02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_office.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_office.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_office.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_office.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_paani.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_paani.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_paani01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_paani01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_paani02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_paani02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_paani.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_paani.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_paani.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_paani.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_pach.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_pach.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_pach01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_pach01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_pach02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_pach02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_pach.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_pach.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_pach.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_pach.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_pakha.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_pakha.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_pakha01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_pakha01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_pakha02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_pakha02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_pakha.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_pakha.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_pakha.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_pakha.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_pepe.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_pepe.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_pepe01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_pepe01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_pepe02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_pepe02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_pepe.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_pepe.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_pepe.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_pepe.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_poribar.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_poribar.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_poribar01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_poribar01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_poribar02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_poribar02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_poribar.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_poribar.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_poribar.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_poribar.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_rajshahi.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_rajshahi.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_rajshahi01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_rajshahi01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_rajshahi02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_rajshahi02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_rajshahi.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_rajshahi.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_rajshahi.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_rajshahi.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_rangpur.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_rangpur.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_rangpur01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_rangpur01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_rangpur02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_rangpur02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_rangpur.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_rangpur.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_rangpur.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_rangpur.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_robibar.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_robibar.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_robibar01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_robibar01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_robibar02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_robibar02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_robibar.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_robibar.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_robibar.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_robibar.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_ruti.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_ruti.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_ruti01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_ruti01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_ruti02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_ruti02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_ruti.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_ruti.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_ruti.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_ruti.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_school.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_school.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_school01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_school01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_school02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_school02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_school.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_school.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_school.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_school.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_shada.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_shada.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_shada01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_shada01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_shada02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_shada02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_shada.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_shada.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_shada.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_shada.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_shami.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_shami.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_shami01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_shami01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_shami02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_shami02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_shami.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_shami.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_shami.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_shami.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_shat.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_shat.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_shat01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_shat01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_shat02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_shat02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_shat.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_shat.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_shat.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_shat.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_shobji.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_shobji.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_shobji01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_shobji01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_shobji02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_shobji02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_shobji.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_shobji.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_shobji.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_shobji.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_shobuj.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_shobuj.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_shobuj01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_shobuj01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_shobuj02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_shobuj02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_shobuj.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_shobuj.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_shobuj.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_shobuj.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_shombar.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_shombar.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_shombar01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_shombar01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_shombar02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_shombar02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_shombar.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_shombar.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_shombar.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_shombar.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_shonibar.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_shonibar.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_shonibar01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_shonibar01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_shonibar02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_shonibar02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_shonibar.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_shonibar.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_shonibar.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_shonibar.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_shoptaho.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_shoptaho.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_shoptaho01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_shoptaho01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_shoptaho02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_shoptaho02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_shoptaho.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_shoptaho.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_shoptaho.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_shoptaho.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_shukrobar.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_shukrobar.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_shukrobar01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_shukrobar01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_shukrobar02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_shukrobar02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_shukrobar.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_shukrobar.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_shukrobar.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_shukrobar.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_shunno.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_shunno.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_shunno01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_shunno01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_shunno02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_shunno02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_shunno.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_shunno.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_shunno.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_shunno.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_stri.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_stri.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_stri01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_stri01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_stri02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_stri02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_stri.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_stri.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_stri.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_stri.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_syllet.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_syllet.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_syllet01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_syllet01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_syllet02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_syllet02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_syllet.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_syllet.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_syllet.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_syllet.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_television.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_television.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_television01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_television01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_television02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_television02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_television.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_television.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_television.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_television.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_tin.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_tin.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_tin01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_tin01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_tin02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_tin02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_tin.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_tin.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_tin.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_tin.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_vaat.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_vaat.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_vaat01.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_vaat01.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/abir/abir_vaat02.wav to /media/abir/Workplace/Thesis/bangla-words/feat/abir/abir_vaat02.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/tonmoy/tonmoy_vaat.wav to /media/abir/Workplace/Thesis/bangla-words/feat/tonmoy/tonmoy_vaat.mfc
+INFO: sphinx_fe.c(791): Converting /media/abir/Workplace/Thesis/bangla-words/wav/towsic/towsic_vaat.wav to /media/abir/Workplace/Thesis/bangla-words/feat/towsic/towsic_vaat.mfc
+Thu Jan 21 18:26:08 2021
